@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Italianno&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-image: url(image/Banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Italianno", cursive;
+    color: #fff;
+    font-size: 45px;
+}
+
+.h1 {
+    color: #0056C7;
+    font-size: 50px;
+}
+
+header {
+    background: linear-gradient(to right, #89898980, #25242476);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin:2%;
+    border-radius: 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nava {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.about {
+    border-radius: 20px;
+    border: 5px solid #0056C7;
+    padding: 30px 100px;
+    margin: 5% 10%;
+    background: linear-gradient(to right, #a5591680, #068acb76);
+}
+
+h2 {
+    font-family: "Italianno", cursive;
+    color: #fff;
+    font-size: 35px;
+}
+
+h6 {
+    font-family: "Italianno", cursive;
+    color: #fff;
+    font-size: 20px;
+}
+
+.h6 {
+    color: #0056C7;
+    font-size: 25px;
+}
+
+footer {
+    background: linear-gradient(to right, #89898980, #25242476);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin:2%;
+    border-radius: 20px;
+
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logofimg {
+    width: 50px;
+    height: auto;
+}
+
