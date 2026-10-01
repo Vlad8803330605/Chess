@@ -61,52 +61,6 @@ ul {
     transition: 0.3s;
 }
 
-.about {
-    border-radius: 20px;
-    border: 5px solid #0056C7;
-    padding: 30px 100px;
-    margin: 5% 10%;
-    background: linear-gradient(to right, #a5591680, #068acb76);
-}
-
-.info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding-top: 40px;
-}
-
-.block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.blockbtn {
-    border-radius: 20px;
-    width: 200px;
-    height: 40px;
-    border: 3px solid #0056C7;
-    background: linear-gradient(to right, #00b3ffe0, #00ffee63);
-    color: #fff;
-    font-family: "Italianno", cursive;
-}
-
-.blockbtn:hover {
-    background: linear-gradient(to right, #0066ff8d, #7700ff61);
-    transition: 0.3s;
-}
-
-.btna {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-family: "Italianno", cursive;
-}
-
 h2 {
     font-family: "Italianno", cursive;
     color: #fff;
@@ -153,3 +107,61 @@ footer {
     height: auto;
 }
 
+.rules {
+    background: linear-gradient(to right, #ffffff80, #25242476);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin:5%;
+    border-radius: 20px;
+    flex-direction: column;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin:1%;
+    flex-direction: column;
+}
+
+.info p {
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block{
+display: flex;
+align-items: center;
+justify-content: center;
+margin:2%;
+padding: 20px;
+flex-direction: column;
+}
+
+.blockimg{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.blockbtn{
+    background: linear-gradient(to right, #89898980, #25242476);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btna{
+    color: #fff;
+    text-decoration: none;
+
+}
